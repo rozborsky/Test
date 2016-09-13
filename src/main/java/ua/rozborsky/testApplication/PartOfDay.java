@@ -9,11 +9,9 @@ import java.util.Calendar;
 public class PartOfDay {
 
     public String getPart() {
-        String partOfDay;
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH");
+        String partOfDay = "night";
 
-        int time = Integer.parseInt(simpleDateFormat.format(calendar.getTime()));
+        int time = getTime();
 
         if ( 6 <= time && time < 9) {
             partOfDay = "morning";
@@ -21,9 +19,15 @@ public class PartOfDay {
             partOfDay = "day";
         } else if ( 19 <= time && time < 23) {
             partOfDay = "evening";
-        }else {
-            partOfDay = "night";
         }
+
         return partOfDay;
+    }
+
+    private int getTime() {
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH");
+
+        return Integer.parseInt(simpleDateFormat.format(calendar.getTime()));
     }
 }

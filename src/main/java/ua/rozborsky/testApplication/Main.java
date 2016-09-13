@@ -1,8 +1,6 @@
 package ua.rozborsky.testApplication;
 
-
 import org.apache.log4j.Logger;
-
 
 /**
  * Created by roman on 12.09.2016.
@@ -16,6 +14,6 @@ public class Main {
         Greeting greeting = new Greeting();
         greeting.showMessage();
 
-        logger.info("application close");
+        logger.info("application close\n");
     }
 }
