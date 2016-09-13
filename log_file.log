@@ -1,0 +1,8 @@
+2016-09-13 19:42:54 INFO  Greeting:14 - application start
+2016-09-13 19:42:54 INFO  Greeting:19 - application end
+2016-09-13 19:45:33 INFO  Greeting:14 - application start
+2016-09-13 19:45:33 INFO  Greeting:20 - Application write: "Добрый вечер, мир!"
+2016-09-13 19:45:33 INFO  Greeting:19 - application end
+2016-09-13 19:46:24 INFO  Greeting:14 - application start
+2016-09-13 19:46:24 INFO  Greeting:20 - application write: "Добрый вечер, мир!"
+2016-09-13 19:46:24 INFO  Greeting:19 - application close
