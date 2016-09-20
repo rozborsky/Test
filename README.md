@@ -1,1 +1,1 @@
-+[![Build Status](https://travis-ci.org/rozborsky/Test/builds/161354089)](https://travis-ci.org/rozborsky/Test)
++[![Build Status](https://https://travis-ci.org/rozborsky/Test.svg?branch=master)](https://travis-ci.org/rozborsky/Test)
