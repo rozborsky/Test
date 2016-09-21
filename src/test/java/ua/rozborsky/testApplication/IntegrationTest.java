@@ -25,14 +25,14 @@ public class IntegrationTest {
     }
 
     private String getExpectedMessage() {
-        String partOfDay = "Доброй ночи, мир!\r\n";
+        String partOfDay = "Good night, World!\r\n";
 
         int time = getTime();
 
         if ( 6 <= time && time < 9) {
-            partOfDay = "Доброе утро, мир!\r\n";
+            partOfDay = "Good morning, World!\r\n";
         } else if ( 9 <= time && time < 19) {
-            partOfDay = "Добрый день, мир!\r\n";
+            partOfDay = "Good day, World!\r\n";
         } else if ( 19 <= time && time < 23) {
             partOfDay = "Good evening, World!\r\n";
         }
