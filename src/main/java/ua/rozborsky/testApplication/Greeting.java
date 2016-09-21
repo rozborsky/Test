@@ -24,9 +24,9 @@ public class Greeting {
         Locale locale = Locale.getDefault();
         String messageFile = "Messages_default";
 
-        if (locale.toString().equals("ru_RU")){
-            messageFile = "Messages_ru";
-        }
+//        if (locale.toString().equals("ru_RU")){
+//            messageFile = "Messages_ru";
+//        }
         return messageFile;
     }
 }
