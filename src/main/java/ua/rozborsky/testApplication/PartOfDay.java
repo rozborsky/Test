@@ -9,14 +9,14 @@ import java.util.Calendar;
 public class PartOfDay {
 
     public String getPart() {
-        String partOfDay = "night";
+        String partOfDay = "evening";
 
         int time = getTime();
 
         if ( 6 <= time && time < 9) {
-            partOfDay = "morning";
+            partOfDay = "evening";
         } else if ( 9 <= time && time < 19) {
-            partOfDay = "day";
+            partOfDay = "evening";
         } else if ( 19 <= time && time < 23) {
             partOfDay = "evening";
         }
