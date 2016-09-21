@@ -35,7 +35,7 @@ public class IntegrationTest {
         } else if ( 9 <= time && time < 19) {
             partOfDay = "Добрый день, мир!\r\n";
         } else if ( 19 <= time && time < 23) {
-            partOfDay = "Добрый вечер, мир!\r\n";
+            partOfDay = "Good evening, World!\r\n";
         }
 
         return partOfDay;
